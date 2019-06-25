@@ -9,6 +9,9 @@ h1{
   
 }
 
+ol li{
+  float: right;
+}
 .wrapper {
   position: relative;
   margin: auto;
@@ -38,3 +41,4 @@ body {
 .foreground {
   background-color: hsla(325, 50%, 50%, 0.6);
 }
+

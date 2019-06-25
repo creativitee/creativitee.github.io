@@ -4,14 +4,14 @@ body {
   height: 100%;
 }
 
-h1{
+h1 {
   position: fixed;
-  
 }
 
-ol li{
+ol li {
   float: right;
 }
+
 .wrapper {
   position: relative;
   margin: auto;
@@ -41,4 +41,3 @@ body {
 .foreground {
   background-color: hsla(325, 50%, 50%, 0.6);
 }
-

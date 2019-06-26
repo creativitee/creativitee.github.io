@@ -21,12 +21,9 @@ ol li {
   float: right;
 }
 
-nav{
-  display: block;
-}
-
 nav a{
   position: relative;
+  display: block;
   top: 200px;
   float: left;
   width: 100px;

@@ -21,8 +21,7 @@ ol li {
   float: right;
 }
 
-nav a{
-  list-style-type: none;
+nav li{
   position: fixed;
   display: block;
   top: 200px;
@@ -31,6 +30,10 @@ nav a{
   margin: 30px;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
+}
+
+nav ul{
+  list-style-type: none;
 }
 
 .wrapper {

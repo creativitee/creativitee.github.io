@@ -26,6 +26,7 @@ p{
   font-size: 40px;
   position: relative;
   left: 30px;
+  bottom: 18px;
 }
 
 nav a{
@@ -53,6 +54,7 @@ nav ul{
   top: 200px;
   left: 30px;
 }
+
 
 .header img{
   position: fixed;
@@ -90,13 +92,14 @@ nav ul{
   z-index: 0;
 }
 
-.foreground p{
+.foreground p, span{
   color: black;
   font-family: "Source Code Pro", sans-serif;
   font-weight: 700;
   font-size: 40px;
   position: relative;
   left: 30px;
+  bottom: 20px;
 }
 
 body {
@@ -110,3 +113,4 @@ body {
 .foreground {
   background-color: hsla(325, 50%, 50%, 0.6);
 }
+

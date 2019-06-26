@@ -16,8 +16,17 @@ h1 {
 h2{
   font-size: 30px;
   font-family: "Roboto", sans-serif;
+  color: black;
 }
 
+p{
+  color: white;
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  position: relative;
+  left: 30px;
+}
 
 nav a{
   display: block;
@@ -27,9 +36,28 @@ nav a{
   font-family: "Roboto", sans-serif;
 }
 
+nav a:hover{
+  color: #d2daf7;
+  text-decoration: underline;
+}
+
+a:visited, a:link, a:active{
+  color: #536bba;
+  text-decoration: none;
+}
+
 nav ul{
+  text-transform: lowercase;  
   list-style-type: none;
   position: fixed;
+  top: 200px;
+  left: 30px;
+}
+
+.header img{
+  position: fixed;
+  left: 30px;
+  top: 30px;
 }
 
 .wrapper {
@@ -37,17 +65,38 @@ nav ul{
   margin: auto;
   padding: 0;
   max-width: 75vw;
+  top: 2vh;
 }
 
-.midground, .foreground {
+.midground {
   position: static;
-  top: 0;
-  left: 0;
-  display: inline-block;
+  display: inline-block; 
   margin: 15vh 0 0 15vw;
-  padding: 0;
   width: 35vw;
   height: 59vh;
+  z-index: 0;
+}
+
+.foreground {
+  position: relative;
+  display: inline-block; 
+  margin: 15vh 0 0 15vw;
+  width: 35vw;
+  height: 59vh;
+  bottom: 25vh;
+  left: 2vw;
+  /* bottom: 53.75vh; */
+  /* left: 25vw; */
+  z-index: 0;
+}
+
+.foreground p{
+  color: black;
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  position: relative;
+  left: 30px;
 }
 
 body {

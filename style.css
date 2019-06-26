@@ -22,6 +22,7 @@ ol li {
 }
 
 nav a{
+  list-style-type: none;
   position: fixed;
   display: block;
   top: 200px;

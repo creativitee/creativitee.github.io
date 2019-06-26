@@ -8,8 +8,7 @@ h1 {
   position: fixed;
   font-size: 50px;
   font-family: "Roboto", sans-serif;
-  color: teal;
-  background-color: hsl(225, 100%, 25%);
+  color: indigo;
   z-index: 2;
 }
 

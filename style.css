@@ -14,9 +14,12 @@ ol li {
 
 nav{
   display: inline-block;
+}
+
+nav a{
   width: 100px;
   height: 50px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 .wrapper {
@@ -42,7 +45,7 @@ body {
 }
 
 .midground {
-  background-color: hsla(225, 100%, 25%, 0.6);
+  background-color: hsl(225, 100%, 25%);
 }
 
 .foreground {

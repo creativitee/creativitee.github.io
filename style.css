@@ -19,9 +19,10 @@ nav{
 }
 
 nav a{
+  float: left;
   width: 100px;
   height: 50px;
-  font-size: 100px;
+  font-size: 30px;
   font-family: "Roboto", sans-serif;
 }
 

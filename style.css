@@ -114,3 +114,73 @@ body {
   background-color: hsla(325, 50%, 50%, 0.6);
 }
 
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .wrapper {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    max-width: 75vw;
+    top: 2vh;
+  }
+  
+  .midground {
+    position: static;
+    display: inline-block; 
+    margin: 15vh 0 0 15vw;
+    width: 300px;
+    height: 250px;
+  }
+  
+  .foreground {
+    position: relative;
+    display: inline-block; 
+    margin: 15vh 0 0 15vw;
+    width: 300px;
+    height: 250px;
+    bottom: 1vh;
+    left: 1vw;
+    /* bottom: 53.75vh; */
+    /* left: 25vw; */
+  }
+  
+  .foreground p, span{
+    color: black;
+    font-family: "Source Code Pro", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+  }
+  
+}

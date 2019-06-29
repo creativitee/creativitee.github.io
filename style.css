@@ -63,11 +63,11 @@ nav ul{
 }
 
 .wrapper {
-  position: relative;
+  position: fixed;
   margin: auto;
   padding: 0;
   max-width: 75vw;
-  top: 2vh;
+  left: 10vw;
 }
 
 .midground {

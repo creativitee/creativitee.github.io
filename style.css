@@ -74,8 +74,8 @@ nav ul{
   position: static;
   display: inline-block; 
   margin: 15vh 0 0 15vw;
-  width: 35vw;
-  height: 59vh;
+  width: 525px;
+  height: 525px;
   z-index: 0;
 }
 
@@ -83,8 +83,8 @@ nav ul{
   position: relative;
   display: inline-block; 
   margin: 15vh 0 0 15vw;
-  width: 35vw;
-  height: 59vh;
+  width: 525px;
+  height: 525px;
   bottom: 25vh;
   left: 2vw;
   /* bottom: 53.75vh; */

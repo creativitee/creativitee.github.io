@@ -19,14 +19,14 @@ h2{
   color: black;
 }
 
-p{
+p, span{
   color: white;
   font-family: "Source Code Pro", sans-serif;
   font-weight: 700;
   font-size: 40px;
   position: relative;
   left: 30px;
-  /* bottom: 10px; */
+  /* top: px; */
 }
 
 nav a{
@@ -99,7 +99,7 @@ nav ul{
   font-size: 40px;
   position: relative;
   left: 30px;
-  bottom: 20px;
+  top: 10px;
 }
 
 body {

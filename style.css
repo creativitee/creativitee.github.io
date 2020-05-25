@@ -9,6 +9,7 @@ html,
 body {
   margin: 0;
   height: 100%;
+  background-color: aliceblue;
 }
 
 h1 {
@@ -27,19 +28,20 @@ h2{
 }
 
 p, span{
+  word-wrap: break-word;
   color: white;
   font-family: "Source Code Pro", sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2rem;
   position: relative;
   left: 30px;
   /* top: px; */
 }
 
 nav{
-  float: right;
-  
+  float: left;
 }
+
 nav a{
   display: inline-block;
   width: 100px;
@@ -53,21 +55,22 @@ nav a:hover{
   text-decoration: none;
 }
 
-a:visited, a:link, a:active{
+/* .foreground a:visited, a:link, a:active{
   color: #536bba;
   text-decoration: none;
   background: #000;
   transition: width .3s;
 }
 
-a::after{
+.foreground a::after{
   content: '';
   display: block;
   width: 0;
   height: 5px;
   background: rgb(75, 121, 221);
   transition: width .5s;
-}
+} */
+
 nav ul{
   text-transform: lowercase;  
   list-style-type: none;
@@ -89,88 +92,47 @@ nav ul{
   margin: auto;
   padding: 0;
   max-width: 75vw;
-  left: 10vw;
 }
 
 .midground {
   position: static;
   display: inline-block; 
+  background-color: hsl(225, 100%, 25%);
   margin: 15vh 0 0 15vw;
-  width: 525px;
-  height: 475px;
+  width: 30em;
+  height: 25em;
   z-index: 0;
 }
 
 .foreground {
   position: relative;
-  display: inline-block; 
+  display: inline-block;
   margin: 15vh 0 0 15vw;
-  width: 50%;
-  height: 45%;
-  bottom: 25Svh;
-  left: 2vw;
-  /* bottom: 53.75vh; */
-  /* left: 25vw; */
-  z-index: 0;
-}
+  background-color: hsla(325, 50%, 50%, 0.6);
+  width: 30em;
+  height: 25em;
+  bottom: 9em;
+}  
 
-.foreground p, span{
+.NYU {
+  word-wrap: break-word;
   color: black;
   font-family: "Source Code Pro", sans-serif;
   font-weight: 700;
-  font-size: 40px;
-  position: relative;
-  left: 30px;
-  top: 10px;
+  font-size: 2rem;
+  padding: 0.3em;
 }
 
-body {
-  background-color: aliceblue;
+.foreground span{
+  color: black;
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
-.midground {
-  background-color: hsl(225, 100%, 25%);
-}
-
-.foreground {
-  background-color: hsla(325, 50%, 50%, 0.6);
-}
-
-
+/* 
 .projects {
   position: relative;
   top: 1000px;
 }
- 
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
-  .wrapper {
-    position: relative;
-    margin: auto;
-    padding: 0;
-    max-width: 75vw;
-    top: 2vh;
-  }
-  
-  .midground {
-    position: static;
-    display: inline-block; 
-    margin: 15vh 0 0 15vw;
-    width: 300px;
-    height: 250px;
-  }
-  
-  .foreground {
-    position: relative;
-    display: inline-block; 
-    margin: 15vh 0 0 15vw;
-    width: 300px;
-    height: 250px;
-    bottom: 1vh;
-    left: 1vw;
-    /* bottom: 53.75vh; */
-    /* left: 25vw; */
-  }
-  
-}
+  */
